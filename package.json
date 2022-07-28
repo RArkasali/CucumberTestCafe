@@ -1,0 +1,20 @@
+{
+  "name": "cucumber_testcafe_project",
+  "version": "1.0.0",
+  "description": "An integration of TestCafe and Cucumber-JS",
+  "author": "Ravi Arkasali",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "npm": "^8.15.0",
+    "testcafe": "^1.20.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --format json:./reports/report.json",
+    "generateReport": "node ./index.js"
+  },
+  "keywords": []
+}

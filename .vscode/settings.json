@@ -1,0 +1,8 @@
+/* Plugin settings for Cucumber related files like feature file and step definitions file
+This allows auto-completion of gherkin commands and assist in designing the cucumber files
+*/
+{
+    "cucumberautocomplete.steps": ["features/step_definitions/*.js"],
+    "cucumberautocomplete.syncfeatures": "features/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true
+}
